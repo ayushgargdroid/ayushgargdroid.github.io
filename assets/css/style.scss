@@ -1,0 +1,35 @@
+a {
+    color: inherit;
+}
+
+span {
+    color: #d5d5d5;
+}
+
+.highlight-blue {
+    color: #007CED;
+}
+
+.btn-gray {
+    background-color: #333333;
+    color: white;
+    border-radius: 40px;
+    box-shadow: 0 10px 10px -8px black;
+    border-width: 2px;
+}
+
+.btn-blue-outline {
+    border-color: #007CED;
+}
+
+.btn-gray-outline {
+    border-color: gray;
+}
+
+.btn-blue-outline:hover {
+    background-color: #007CED;
+}
+
+.btn-gray-outline:hover {
+    background-color: gray;
+}
