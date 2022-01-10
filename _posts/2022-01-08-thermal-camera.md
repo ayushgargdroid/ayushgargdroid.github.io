@@ -2,11 +2,12 @@
 layout: post
 title:  "Introduction to Thermal Cameras"
 date:   2022-01-08 05:32:38 -0500
+img: /assets/thermal-camera/thermal-image.jpeg
 categories: blog
 ---
 The main purpose of this blog is to understand Thermal imaging systems and to understand what Thermal Cameras really measure? I start with some refresher of the Infrared Radiation, followed by a section on Thermal Cameras and conclude with Radiometry concepts.
 ## Infrared Radiation
-![IR Spectrum](/assets/IR%20Spectrum.jpeg){: .img}
+![IR Spectrum](/assets/thermal-camera/IR%20Spectrum.jpeg){: .img}
 Infrared Radiation is a part of the electromagnetic spectrum from approximately 0.9-14 µm (microns). It is emitted by all objects at temperatures above absolute zero and is directly proportional to the temparature. **Thermography** is the type of imaging accomplished by an IR calibrated camera to display temparature values across a scene. **Radiometry** is the measurement of radiant electromagnetic energy in the IR spectrum specified as radiant flux. IR has the same properties as visible light regarding reflection, refraction and transmission. According to **Total Radiation Law**, an object reacts to incident radiation as follows  
 
 $$
@@ -17,7 +18,7 @@ where $$\alpha$$ denotes the energy absorbtion, $$\phi$$ reflection and $$\tau$$
 
 ## Thermal Camera
 An IR camera is similar in construction to a digital RGB camera. It has a lens that focuses the IR onto a focal plane array (FPA) along with the electronics and software to process and display the signal. The FPA is the detector which consists of micrometer size pixels constructed from materials that are sensitive to IR wavelengths. The FPA detectors are mainly of 2 types - thermal detectors and quantum detectors. The most common thermal detector is an **uncooled microbolometer**, made of a semiconductor material. They are cheaper than quantum detectors and are slow and less sensitive to IR. IR cameras are specifically designed and calibrated for a desired range in the IR spectrum. Uncooled microbolometers work in the LWIR as shown in Figure below.  
-![IR Range](/assets/IR%20range.png){: .img}
+![IR Range](/assets/thermal-camera/IR%20range.png){: .img}
 Some thermal cameras can be calibrated to ouput object temperatures but for that the object emmissivity, atmospheric attenuation and temperature and temperature of the ambient surroundings is needed. **Emmissivity** is a measure of how much energy the object absorbs; $$\epsilon$$ is 1 if the object is a perfect blackbody.
 
 ## Radiometry Concepts
